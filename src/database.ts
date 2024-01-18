@@ -1,11 +1,11 @@
 import { Pool } from "pg";
-import {config} from 'dotenv';
-config();
+//import {config} from 'dotenv';
+//config();
 
 
 //si se desarrolla en entorno local activa este bloque de codigo
 
-
+/*
 export const pool = new Pool({
     user:'postgres',
     host:'localhost',
@@ -14,7 +14,7 @@ export const pool = new Pool({
     port: 5432,
     ssl:true
 });
-
+*/
 
 
 
@@ -24,14 +24,11 @@ export const pool = new Pool({
 
 
 //external url de render
-/*
 export const pool = new Pool({
-    user:'davidmillan',
-    host:'dpg-ckuhmr237rbc738ccnq0-a.oregon-postgres.render.com',
-    password: 'D3zujgTZLkwBCPSowXCPzLBqFAEi27m8',
-    database: 'menusdb',
+    user:'angel',
+    host:'dpg-cmk6sb2cn0vc73e33as0-a.oregon-postgres.render.com',
+    password: 'rHdFGWknJqOEJIk0A76xa12NvtGjOOLg',
+    database: 'menudb_nydq',
     port: 5432,
     ssl:true
 });
-*/
-
